@@ -18,7 +18,8 @@ REAL_HEX =  code.hex
 PROJ = icestick_6502_top
 PIN_DEF = icestick_6502_top.pcf
 SDC = icestick_6502_top.sdc
-DEVICE = hx1k
+DEVICE = lp1k --freq 12 --package cm36
+#DEVICE = hx1k 
 
 YOSYS = yosys
 NEXTPNR = nextpnr-ice40
